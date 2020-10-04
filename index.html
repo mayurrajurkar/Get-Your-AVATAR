@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Api ka use</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    </head>
+    <body>
+        <section>
+            <h1>what does your name say about your <br> personality ?</h1>
+            <div class="center">
+            <div class ="divcenter">
+                <div class="details">
+                    <p>ENTER YOUR NAME</p>
+                    <input type="text" name="" id= "nameid">
+
+                </div>
+                <div class="imgdiv">
+                    <img src="img.jpg" width="200" height="200" id="imgchange">
+
+
+                </div>
+                <button>Click me</button>
+            </div>
+            </div>
+        </section>
+       
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+           <script>
+              $(document).ready(function(){
+
+              $('button').click(function(){
+                  const name = $('#nameid').val();
+                  
+                  $('#imgchange').attr('src','https://joeschmoe.io/api/v1/' + name);
+
+            });
+
+            });           
+
+
+
+           </Script>
+
+
+
+       
+
+    </body>
+</html>

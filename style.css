@@ -1,0 +1,101 @@
+body{
+    background-color: #26734d;
+    font-family: 'Luckiest Guy', cursive;
+    
+    font-size: 32px;
+    
+    
+    
+    
+}
+button{
+    font-family: 'Luckiest Guy', cursive;
+}
+h1{
+    
+    color: cornsilk;
+    
+    text-shadow: 2px 2px 5px #4747d1;
+    padding-left: 40px;
+     padding-top: 40px;
+   
+}
+.divcenter{
+      
+      width: 550px;
+      height: 350px;
+      background-color: darkslategray;
+      border: 3px solid #ff80ff;
+      
+      
+      
+
+     
+      
+}
+.center{
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+  margin-left: -280px;
+  text-align: center;
+    
+    
+}
+ p{
+     font-size: 32px;
+     
+     color: floralwhite;
+     margin: 10px;
+     margin-bottom: 0px;
+      
+}
+#nameid{
+    
+    margin :8px;
+    margin-bottom: 15px;
+    
+    
+    
+    padding-top :15px;
+    border: 2px solid  #33ccff;
+    border-radius: 10px;
+    background-color: lightseagreen;
+     
+    vertical-align: middle;
+}
+.imgchange{
+    border: 1px solid #0059b3;
+    border-radius: 10px;
+    padding-bottom: 0px;
+    
+
+}
+input{
+    vertical-align: left;
+    font-size: 15px;
+    border:12px #00ff00;
+    display: inline-block;
+    color: rebeccapurple;
+    font-style: bold;
+    
+}
+.details input[type=text]:focus {
+    border: 3px solid #555;
+  }
+.details input{ padding: 10px; background-color: #ff6b81; 
+    color: white; text-align: center; font-weight: bold;}
+button{
+    
+    width: 170px;
+    height: 45px;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(43, 24, 212);
+    color: rgb(189, 166, 245);
+    border-radius: 15px;
+    border-color: palegreen;
+    
+    
+}
